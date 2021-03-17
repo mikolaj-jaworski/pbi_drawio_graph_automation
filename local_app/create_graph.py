@@ -177,7 +177,7 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Create a Power BI resource graph')
     parser.add_argument('--user', required=True)
-    parser.add_argument('--client', required=True, help='cleint id')
+    parser.add_argument('--client', required=True, help='client id')
     parser.add_argument('--tenant', required=True, help='tenant id')
     parser.add_argument('--ws_names', nargs="*", help='list of workspaces')
     
